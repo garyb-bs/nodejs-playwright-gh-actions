@@ -1,4 +1,4 @@
-name: 'BrowserStack Test'
+name: 'Playwright NodeJS GitHub Actions Test'
 on: [push, pull_request]
 jobs:
   ubuntu-job:
@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest  # Can be self-hosted runner also
     steps:
 
-      - name: 'BrowserStack Env Setup'  # Invokes the setup-env action
+      - name: 'BrowserStack Environment Setup'  # Invokes the setup-env action
         uses: browserstack/github-actions/setup-env@master
         with:
           username:  ${{ secrets.BROWSERSTACK_USERNAME }}
