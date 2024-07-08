@@ -1,11 +1,14 @@
-# node-js-playwright-browserstack
-This repo contains samples for running [Playwright](https://playwright.dev/docs/intro) tests on BrowserStack using the browserstack-node-sdk.
+# Playwright NodeJS - GitHub Actions Example
+This repo contains samples for running [Playwright](https://playwright.dev/docs/intro) tests on BrowserStack using the browserstack-node-sdk through GitHub Actions.
 
-![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
+<p float="left">
+  <img src="https://static-00.iconduck.com/assets.00/browserstack-icon-1024x1024-7zz2pc78.png" width="100" height="110" title="BrowserStack" style="margin-right:50px;">
+  <img src="https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png" width="100" height="110" title="AdobeExpress">
+</p>
 
 ## Setup
 
-* Clone the repo `git clone -b sdk https://github.com/browserstack/node-js-playwright-browserstack.git` and run `cd node-js-playwright-browserstack`.
+* Clone the repo `git clone https://github.com/garyb-bs/nodejs-playwright-gh-actions.git` and run `cd nodejs-playwright-gh-actions`.
 * Set `BROWSERSTACK_USERNAME` and `BROWSERSTACK_ACCESS_KEY` as environment variables with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) or update the same in `browserstack.yml` file.
 * Run `npm i` to install the dependencies.
 
